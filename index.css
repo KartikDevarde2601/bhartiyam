@@ -1,0 +1,81 @@
+.head-container{
+background-image: url("./header-img.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 350px;
+width:100% ;
+background-color:orange;
+display: flex;
+flex-direction: column;
+}
+.header-title{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.head-text{
+color: white;
+font-size: 50px;
+font-weight: 700;
+padding-top: 100px;
+}
+
+.class{
+    padding: 20px;
+}
+
+/* card component styling */ 
+.container{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+
+/* headline css */
+
+.headline{
+    padding: 30px;
+    padding-top: 40px;
+    padding-bottom:40px ;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.headline-text{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.text{
+    text-align: center;
+}
+/* horizontal card components */
+.card-body{
+    display:block;
+}
+.hori-container{
+    padding: 30px;
+
+}
+
+
+#footer{
+    margin-top: 40px;
+}
+
+#form{
+    margin: 40px;
+    padding: 20px;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    flex-direction: row-reverse;
+}
